@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module bookstore</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">bookstore</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cpython_programs%5Cweek6%267_assignment%5Cclasses%5Cbookstore.py">c:\users\python_programs\week6&7_assignment\classes\bookstore.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="pymysql.html">pymysql</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor index-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Classes</strong></td></tr>
+    
+<tr><td class="decor index-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl>
+<dt class="heading-text"><a href="builtins.html#object">builtins.object</a>
+</dt><dd>
+<dl>
+<dt class="heading-text"><a href="bookstore.html#Bookstore">Bookstore</a>
+</dt></dl>
+</dd>
+</dl>
+ <p>
+<table class="section">
+<tr class="decor title-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><a name="Bookstore">class <strong>Bookstore</strong></a>(<a href="builtins.html#object">builtins.object</a>)</td></tr>
+    
+<tr><td class="decor title-decor" rowspan=2><span class="code">&nbsp;&nbsp;&nbsp;</span></td>
+<td class="decor title-decor" colspan=2><span class="code">A&nbsp;class&nbsp;representing&nbsp;a&nbsp;bookstore&nbsp;with&nbsp;methods&nbsp;to&nbsp;manage&nbsp;books&nbsp;in&nbsp;the&nbsp;database.<br>
+&nbsp;<br>
+Attributes:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;conn&nbsp;(pymysql.connections.Connection):&nbsp;Represents&nbsp;the&nbsp;connection&nbsp;to&nbsp;the&nbsp;database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;c&nbsp;(pymysql.cursors.Cursor):&nbsp;Represents&nbsp;the&nbsp;cursor&nbsp;<a href="builtins.html#object">object</a>&nbsp;to&nbsp;execute&nbsp;SQL&nbsp;queries<br>&nbsp;</span></td></tr>
+<tr><td>&nbsp;</td>
+<td class="singlecolumn">Methods defined here:<br>
+<dl><dt><a name="Bookstore-__init__"><strong>__init__</strong></a>(self)</dt><dd><span class="code">Establishing&nbsp;connection&nbsp;to&nbsp;the&nbsp;database</span></dd></dl>
+
+<dl><dt><a name="Bookstore-add_book"><strong>add_book</strong></a>(self)</dt><dd><span class="code">Adding&nbsp;a&nbsp;new&nbsp;book&nbsp;to&nbsp;the&nbsp;database</span></dd></dl>
+
+<dl><dt><a name="Bookstore-edit_book"><strong>edit_book</strong></a>(self)</dt><dd><span class="code">Editing&nbsp;details&nbsp;of&nbsp;a&nbsp;book<br>
+Arguments:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;book_id&nbsp;(int):&nbsp;The&nbsp;ID&nbsp;of&nbsp;the&nbsp;book&nbsp;to&nbsp;be&nbsp;edited.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;field&nbsp;(str):&nbsp;The&nbsp;field&nbsp;to&nbsp;be&nbsp;edited.&nbsp;It&nbsp;can&nbsp;be&nbsp;one&nbsp;of&nbsp;'book_title',&nbsp;'book_author',&nbsp;'quantity',&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'signed_edition',&nbsp;'promo_price',&nbsp;or&nbsp;'retail_price'.</span></dd></dl>
+
+<dl><dt><a name="Bookstore-exit_program"><strong>exit_program</strong></a>(self)</dt><dd><span class="code">Exiting&nbsp;the&nbsp;program</span></dd></dl>
+
+<dl><dt><a name="Bookstore-record_sale"><strong>record_sale</strong></a>(self)</dt><dd><span class="code">Recording&nbsp;a&nbsp;sale&nbsp;of&nbsp;a&nbsp;book</span></dd></dl>
+
+<dl><dt><a name="Bookstore-remove_book"><strong>remove_book</strong></a>(self)</dt><dd><span class="code">Removing&nbsp;a&nbsp;book&nbsp;from&nbsp;the&nbsp;database<br>
+Arguments:<br>
+&nbsp;&nbsp;&nbsp;book_id&nbsp;(int):&nbsp;The&nbsp;ID&nbsp;of&nbsp;the&nbsp;book&nbsp;to&nbsp;be&nbsp;removed.</span></dd></dl>
+
+<dl><dt><a name="Bookstore-show_books"><strong>show_books</strong></a>(self)</dt><dd><span class="code">Retrieving&nbsp;and&nbsp;displaying&nbsp;all&nbsp;books&nbsp;from&nbsp;the&nbsp;database</span></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><span class="code">dictionary&nbsp;for&nbsp;instance&nbsp;variables</span></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><span class="code">list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object</span></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
